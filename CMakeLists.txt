@@ -2,7 +2,7 @@
 #                                 FifeChan / FifeGUI                                         
 #------------------------------------------------------------------------------
 
-CMAKE_MINIMUM_REQUIRED(VERSION 2.6.0)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.1)
 
 PROJECT(fifechan)
 
@@ -478,4 +478,4 @@ IF(ENABLE_SDL AND SDL2_FOUND AND SDL2_IMAGE_FOUND)
 
 ENDIF(ENABLE_SDL AND SDL2_FOUND AND SDL2_IMAGE_FOUND)
 
-MESSAGE(STATUS "Fifechan Makefiles have been generated!")
+MESSAGE(STATUS "Fifechan ${CMAKE_GENERATOR} files have been generated!")
