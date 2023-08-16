@@ -70,7 +70,7 @@ endif(WIN32)
 #------------------------------------------------------------------------------
 
 # Path to local modules
-SET(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/CMake/Modules)
+SET(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/CMake)
 
 # Do not allow an in-source-tree build, request an out-of-source-tree build.
 if (CMAKE_SOURCE_DIR STREQUAL CMAKE_BINARY_DIR)
