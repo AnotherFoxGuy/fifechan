@@ -13,7 +13,7 @@ class FifeChan(ConanFile):
         cmake_layout(self)
 
     def requirements(self):
-        self.requires("sdl_image/2.0.5")
+        self.requires("sdl_image/2.6.3")
         self.requires("sdl_ttf/2.20.2")
         self.requires("sdl/2.26.5")
 
