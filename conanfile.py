@@ -15,7 +15,7 @@ class FifeChan(ConanFile):
     def requirements(self):
         self.requires("sdl_image/2.0.5")
         self.requires("sdl_ttf/2.20.2")
-        self.requires("sdl/2.26.5")
+        self.requires("sdl/2.28.5")
 
     def generate(self):
         tc = CMakeToolchain(self)
